@@ -3,6 +3,7 @@ import 'dart:io';
 void main (){
   // declare a age varaible
   int age =45;
+  print(age);
 
 
   //addition , in which take input from user and add them.
