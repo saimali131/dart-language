@@ -159,8 +159,17 @@ String vowels = "ayaz";
 List<String> countVowels = vowels.toLowerCase().split("").where((a)=>"aeiou".contains(a)).toList();
 print(countVowels);
 
+//8:Write a Dart program to find the largest number in a list.
 List xyz = [1,3,4,24,15];
 xyz.sort();
 int largestNumber = xyz.last;
 print(largestNumber);
+
+
+//10:Write a Dart program to remove duplicate elements from a list.
+List<int> dup = [1,22,22,4,5,6,6];
+List integer = dup.toSet().toList();
+print(integer);
+
+
 } 
